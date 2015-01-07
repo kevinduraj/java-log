@@ -5,3 +5,11 @@
 2015-01-06 18:26:24 FATAL MyLogger:41 - logger.fatal : test
 2015-01-06 18:26:38 ERROR MyLogger:40 - logger.error: test
 2015-01-06 18:26:38 FATAL MyLogger:41 - logger.fatal : test
+2015-01-06 18:34:04 ERROR MyLogger:40 - logger.error: test
+2015-01-06 18:34:04 FATAL MyLogger:41 - logger.fatal : test
+2015-01-06 18:35:01 ERROR MyLogger:40 - logger.error: test
+2015-01-06 18:35:01 FATAL MyLogger:41 - logger.fatal : test
+2015-01-06 18:35:09 ERROR MyLogger:40 - logger.error: test
+2015-01-06 18:35:09 FATAL MyLogger:41 - logger.fatal : test
+2015-01-06 18:36:06 ERROR MyLogger:40 - logger.error: test
+2015-01-06 18:36:06 FATAL MyLogger:41 - logger.fatal : test
