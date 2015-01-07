@@ -2,19 +2,16 @@ package kduraj;
 
 import org.apache.log4j.Logger;
 
-/**----------------------------------------------------------------------------------
- *  java -cp logger.jar kduraj.MyLog1
- -----------------------------------------------------------------------------------*/
-public class MyLog1 {
+public class MyLogger {
 
-    final static Logger logger = Logger.getLogger(MyLog1.class);
+    final static Logger logger = Logger.getLogger(MyLogger.class);
     /*------------------------------------------------------------------------------*/
 
     public static void main(String[] args) {
 
-        MyLog1 obj = new MyLog1();
+        MyLogger obj = new MyLogger();
         obj.test1();
-        obj.test2("logging...");
+        obj.test2("test");
 
     }
 
@@ -35,9 +32,13 @@ public class MyLog1 {
             logger.info("This is info : " + parameter);
         }
 
-        logger.warn("This is warn : " + parameter);
-        logger.error("This is error : " + parameter);
-        logger.fatal("This is fatal : " + parameter);
+        logger.trace("logger.trace: "  + parameter);
+        logger.debug("logger.debug: " + parameter);
+        logger.info("logger.info: " + parameter);
+
+        logger.warn("logger.warn: " + parameter);
+        logger.error("logger.error: " + parameter);
+        logger.fatal("logger.fatal : " + parameter);
 
     }
 
