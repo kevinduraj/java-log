@@ -14,7 +14,7 @@ public class MyLog1 {
 
         MyLog1 obj = new MyLog1();
         obj.test1();
-        //obj.test2("logging...");
+        obj.test2("logging...");
 
     }
 
@@ -24,7 +24,7 @@ public class MyLog1 {
     }
     /*------------------------------------------------------------------------------*/
 
-    /*
+
     private void test2(String parameter) {
 
         if (logger.isDebugEnabled()) {
@@ -40,7 +40,7 @@ public class MyLog1 {
         logger.fatal("This is fatal : " + parameter);
 
     }
-    */
+
 
     /*------------------------------------------------------------------------------*/
 

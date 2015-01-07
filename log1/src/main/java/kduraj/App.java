@@ -16,5 +16,6 @@ public class App {
         logger.info("logger.info");
         logger.warn("logger.warn");
         logger.error("logger.error");
+
     }
 }

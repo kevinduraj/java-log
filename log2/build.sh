@@ -2,6 +2,7 @@
 #-----------------------------------------------------#
 mvn clean install
 cd target
-java -cp logger.jar kduraj.MyLog1 
+CLASSPATH=logger.jar:../lib/log4j-1.2.17.jar
+java -cp $CLASSPATH kduraj.MyLog1
 #-----------------------------------------------------#
 
