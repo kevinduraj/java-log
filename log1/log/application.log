@@ -1,0 +1,7 @@
+
+2015-01-06 18:19:30 ERROR MyLogger:40 - logger.error: test
+2015-01-06 18:19:30 FATAL MyLogger:41 - logger.fatal : test
+2015-01-06 18:26:24 ERROR MyLogger:40 - logger.error: test
+2015-01-06 18:26:24 FATAL MyLogger:41 - logger.fatal : test
+2015-01-06 18:26:38 ERROR MyLogger:40 - logger.error: test
+2015-01-06 18:26:38 FATAL MyLogger:41 - logger.fatal : test
